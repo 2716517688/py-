@@ -1,0 +1,16 @@
+def chang(st):                                                                            # 输入列表处理函数，输入一个数字列表
+    i=0
+    j=0
+    k=[]
+    print(type(k))
+    for sn in st:
+        print(sn)
+        if sn!=' ':
+            i=i*10+int(sn)
+        else:
+            k.append(i)
+#            print(k)
+            i=0
+            j+=1
+    k.append(i)
+    return k
